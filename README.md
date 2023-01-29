@@ -1,16 +1,40 @@
-# E-ASComplaint
+# ISBLog
+Responsive Full Stack Blog Application - Works on Android, iOS & Web! 
 
 To **Download⬇️⬇️** the App [click here📱📱](https://drive.google.com/file/d/1RLSJYw8l48sJK7rJ8ea7uSgru5P_pYrP/view?usp=share_link)   
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
+## Features
+- Google/Guest Authentication
+- Create, Join community
+- Community Profile (Avatar, Banner, Members) 
+- Edit Description and Avatar of community
+- Post (link only, photo, text only) 
+- Upvote, Downvote
+- Comment
+- Add Moderators
+- Delete post
+- User Profile (Avatar, Banner) 
+- Light/Dark Theme
+- State Persistence 
 
-A few resources to get you started if this is your first Flutter project:
+## Installation
+After cloning this repository, migrate to ```iasblog``` folder. Then, follow the following steps:
+- Create Firebase Project
+- Enable Authentication (Google Sign In, Guest Sign In)
+- Make Firestore Rules
+- Create Android, iOS & Web Apps
+- Use FlutterFire CLI to add the Firebase Project to this app.
+Then run the following commands to run your app:
+```bash
+  flutter pub get
+  open -a simulator (to get iOS Simulator)
+  flutter run
+  flutter run -d chrome --web-renderer html (to see the best output)
+```
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Tech Used
+**Server**: Firebase Auth, Firebase Storage, Firebase Firestore
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+**Client**: Flutter, Riverpod 2.0, Routemaster
+    
