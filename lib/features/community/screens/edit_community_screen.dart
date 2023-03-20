@@ -130,7 +130,8 @@ class _EditCommunityScreenState extends ConsumerState<EditCommunityScreen> {
                                                         size: 40),
                                                   )
                                                 : Image.network(
-                                                    community.banner),
+                                                    community.banner,
+                                                ),
                                   ),
                                 ),
                               ),
@@ -153,7 +154,8 @@ class _EditCommunityScreenState extends ConsumerState<EditCommunityScreen> {
                                             )
                                           : CircleAvatar(
                                               backgroundImage: NetworkImage(
-                                                  community.avatar),
+                                                  community.avatar,
+                                              ),
                                               radius: 32,
                                             ),
                                 ),
