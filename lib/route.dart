@@ -72,6 +72,6 @@ final loggedInRouter = RouteMap(
     '/add-article/': (routeData) => const MaterialPage(
           child: AddArticleTypeScreen(),
         ),
-    // route specially for web
+    // route specially for web i.e. https://github.com/Adityashahi4465/ISBLog/edit/main/lib/route.dart
   },
 );
